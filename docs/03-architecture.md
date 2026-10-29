@@ -16,9 +16,11 @@ Browser ──HTTPS──> api.open-meteo.com/v1/forecast
 | `domain/types.ts` | `Place`, `Forecast`, `CurrentWeather`, `HourlyPoint`, `DailyPoint`, `Units` |
 | `domain/weatherCodes.ts` | WMO weather code → label + icon |
 | `domain/units.ts` | °C↔°F, km/h↔mph, formatting |
+| `domain/validators.ts` | Type guards for stored data (tamper-safe reads) |
 | `hooks/useForecast.ts` | Load / cancel / retry state, caches last forecast in localStorage |
-| `hooks/useLocalStorage.ts` | Typed, validated persistence |
-| `components/*` | SearchBox, CurrentCard, HourlyStrip, DailyList, Favourites, UnitToggle, StatusBanner |
+| `hooks/storage.ts` | Typed, validated localStorage persistence (`useLocalStorage`) |
+| `hooks/useGeolocation.ts` | Browser geolocation with rounded coordinates and friendly errors |
+| `components/*` | SearchBox, CurrentCard, HourlyStrip, DailyList, Favourites, UnitToggle |
 | `App.tsx` | Composition and selected-place state |
 
 ## Data flow

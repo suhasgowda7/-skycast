@@ -6,7 +6,7 @@
 | Type | Web app / PWA (client-only, no backend) |
 | Delivery mode | Solo + AI product team, gates reviewed at the end |
 | Size tier | **S** (≤ 6 epics, 1 developer, no backend, no server-side personal data) |
-| Stack | React 18, TypeScript (strict), Vite, Vitest, Testing Library, Playwright, vite-plugin-pwa |
+| Stack | React 19, TypeScript 6 (strict), Vite 8, Vitest, Testing Library, Playwright, vite-plugin-pwa |
 | Hosting | GitHub Pages via GitHub Actions |
 | Data sources | Open-Meteo Forecast API, Open-Meteo Geocoding API (no key, CC BY 4.0, non-commercial) |
 | Owner | Suhas Gowda |
